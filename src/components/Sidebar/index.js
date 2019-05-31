@@ -10,7 +10,7 @@ const Sidebar = () => (
     <div>
       <Nav main>
         <li>
-          <a href="">Navigate</a>
+          <a href="/">Navigate</a>
         </li>
         <li>
           <a href="">Radio</a>

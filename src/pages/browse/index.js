@@ -9,7 +9,7 @@ const Browse = () => (
     <Title>Navigate</Title>
 
     <List>
-      <Playlist href="">
+      <Playlist to="/playlists/1">
         <img
           src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/Stargroves-album-cover.png?auto=format&q=60&fit=max&w=930"
           alt="Playlist"
@@ -17,7 +17,7 @@ const Browse = () => (
         <strong>Good Rocks</strong>
         <p>Relax while you program listening only the best of rock</p>
       </Playlist>
-      <Playlist href="">
+      <Playlist to="playlists/2">
         <img
           src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/Stargroves-album-cover.png?auto=format&q=60&fit=max&w=930"
           alt="Playlist"
@@ -25,7 +25,7 @@ const Browse = () => (
         <strong>Good Rocks</strong>
         <p>Relax while you program listening only the best of rock</p>
       </Playlist>
-      <Playlist href="">
+      <Playlist to="playlists/3">
         <img
           src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/Stargroves-album-cover.png?auto=format&q=60&fit=max&w=930"
           alt="Playlist"
@@ -33,7 +33,7 @@ const Browse = () => (
         <strong>Good Rocks</strong>
         <p>Relax while you program listening only the best of rock</p>
       </Playlist>
-      <Playlist href="">
+      <Playlist to="playlists/4">
         <img
           src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/12/Stargroves-album-cover.png?auto=format&q=60&fit=max&w=930"
           alt="Playlist"
