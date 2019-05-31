@@ -1,4 +1,5 @@
 import React, { Fragment } from 'react';
+import { BrowserRouter } from 'react-router-dom';
 
 import GlobalStyle from './styles/global';
 
@@ -8,19 +9,24 @@ import Header from './components/Header';
 
 import { Wrapper, Container, Content } from './styles/components';
 
+import Routes from './routes';
+
 
 const App = () => (
   <Fragment>
     <GlobalStyle />
-    <Wrapper>
-      <Container>
-        <Sidebar />
-        <Content>
-          <Header />
-        </Content>
-      </Container>
-      <Player />
-    </Wrapper>
+    <BrowserRouter>
+      <Wrapper>
+        <Container>
+          <Sidebar />
+          <Content>
+            <Header />
+            <Routes />
+          </Content>
+        </Container>
+        <Player />
+      </Wrapper>
+    </BrowserRouter>
   </Fragment>
 );
 
